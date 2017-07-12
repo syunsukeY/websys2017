@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+あやしいアンケート<br>
+<p>地域選択
+<select name="color">
+<option selected value="0">指定なし</option>
+<option value="1">赤色</option>
+<option value="2">青色</option>
+<option value="3">黄色</option>
+<option value="4">どどめ色</option>
+<option value="5">透明</option>
+</select></p>
+
+<p>あなたの血液型は？<br>
+<input type=radio name="blood" value="1">A型
+<input type=radio name="blood" value="2">B型
+<input type=????? name="blood" value="3">O型
+<input type=radio name="blood" value="4">AB型
+<input type=radio name="blood" value="5">宇宙人型</p>
+
+<p>飼っているペットは?(複数回答可）<br>
+<input type=checkbox name="dog" value="1">犬
+<input type=checkbox name="cat" value="1">猫
+<input type=checkbox name="monkey" value="1">猿
+<input type=checkbox name="monster" value="1">怪獣
+<input type=checkbox name="alien" value="1">宇宙人
+<input type=???????? name="others" value="1">その他</p>
+
+<p>名前を入力してください<input type=text size=7 name="name"></p>
+
+<p>住所を入力してください（個人情報は保護しません）<br>
+<textarea name=address rows=3 cols=30>例:東京都若葉区極楽町1－1</textarea></p>
+
+<p><input type=submit value="アンケート送信">
+<input type=reset value="クリア"></p>
+</body>
+</html>
+<form method=post action="submit.cgi">
+</form>
